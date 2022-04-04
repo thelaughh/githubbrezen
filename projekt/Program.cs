@@ -8,7 +8,7 @@ int cislo1 = Convert.ToInt32(Console.ReadLine());
 //cislo 2
 Console.WriteLine("Zadejte druhé číslo");
 int cislo2 = Convert.ToInt32(Console.ReadLine());
-
+// program přečte dvě čísla a seřadí je za sebou
 if (cislo1 > cislo2)
 {
     Console.WriteLine();
@@ -21,6 +21,13 @@ else if (cislo1 < cislo2)
     Console.WriteLine();
     Console.WriteLine("Výsledky jsou: ");
     Console.WriteLine($"{cislo2}\n{cislo1}");
+}
+if (cislo1== cislo2)
+{
+    Console.WriteLine();
+    Console.WriteLine("Výsledky jsou");
+    Console.WriteLine("Čísla jsou shodná");
+
 }
 else
 {
